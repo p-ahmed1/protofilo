@@ -1,0 +1,80 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        /* بطاقة التعريف */
+        .about{
+            width: 80%;
+            margin: 40px auto 30px;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow:0 4px 15px rgba(0,0,0,0.1)
+
+        }
+
+        .avatar {
+            width: 160px;
+
+                height: 150px;
+
+               border-radius:50%;
+               object-fit:cover;
+
+             margin:0 auto 20px;
+        }
+
+        .about h1{
+            color: #16213e;
+            margin-bottom: 10px;
+        }
+
+        .about h3 {
+           color: #666;
+           margin-bottom: 20px;
+        }
+        .about p {
+            line-height: 1.8;
+            font-size: 18px;
+        }
+
+        /* البطاقات السفلية */
+        .cards{
+            width: 80%;
+            margin:auto;
+            display: flex;
+            gap: 20px;
+        }
+        .card{
+            flex: 1;
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow:0 4px 15px rgba(0,0,0,0.1);
+        }
+        .card h2{
+            text-align: center;
+            color: #16213e;
+            margin-bottom: 10px;
+        }
+        .card ul{
+            padding-right: 20px;
+        }
+        .card li{
+            margin: 10px 0;
+        }
+        .card a{
+            text-decoration: none;
+            color: #2563eb;
+        }
+        footer{
+            margin-top: 30px;
+            background: #16213e;
+            text-align: center;
+            padding: 20px;
+        }
