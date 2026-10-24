@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7ff;
+    margin: 20px;
+}
+
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+.road-guide {
+    height: 100px;
+    background-color: #d1d5db;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.card {
+
+    position: absolute;
+font-size: 50px;
+    top: 50%;
+    animation: drive 8s linear infinite;
+}
+.city {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #1e293b;
+}
+.start{
+    left: 10;
+}
+.end{
+    right: 10;
+}
+@keyframes drive{
+ ferom{
+        left: 60%;
+    }
+    to{
+        left: 100%;
+    }
+}
+.info-card {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
